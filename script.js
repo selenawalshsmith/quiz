@@ -1,4 +1,4 @@
-const startButton = document.getElementById('start-btn')
+const startButton = Document.getElementById('start-btn')
 //const questionContainerElement = document.getElementbyId('question-container')
 
 //const questionElement = document.getElementById('question')
