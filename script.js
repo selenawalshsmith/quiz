@@ -26,9 +26,9 @@ function setNextQuestion() {
 function showQuestion(question) {
   questionElement.innerText = question.question;
   question.answers.forEach(answer => {
-    const button = document.createElement('button')
-    button.innrerText = answer.txt;
-    button.classList.add('btn')
+    const button = document.createElement('button');
+    button.innerText = answer.txt;
+    button.classList.add('btn');
     if (answer.correct){
       button.dataset.correct = answer.correct;
     }
