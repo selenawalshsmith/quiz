@@ -1,4 +1,4 @@
-const startButton = document.getElementByID('start-btn')
+const startButton = document.getElementById('start-btn')
 //const questionContainerElement = document.getElementbyId('question-container')
 
 startButton.addEventListener('click', startGame)
