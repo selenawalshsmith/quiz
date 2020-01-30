@@ -65,6 +65,7 @@ function selectAnswer(e) {
 function setStatusClass(element, correct) {
   clearStatusClass(element);
   if (correct) {
+    console.log("Did we get here?");
     element.classList.add('correct');
   } else {
     element.classList.add('wrong');
